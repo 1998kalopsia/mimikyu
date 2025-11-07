@@ -16,11 +16,16 @@ header{
     padding: 20px;
 }
 
-header img{
+header .pfp{
     width: 300px;
     height: 300px;
     border: 20px  solid darkmagenta;
     border-radius: 50%;
+    background-image: url('./../img/mimikyu-purple-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 auto;
 }
 
 header h1 {
